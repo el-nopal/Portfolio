@@ -16,10 +16,13 @@
   background-color: $jumbotron-bg;
   background-image: url("/images/tech-bg.svg");
   @include border-radius($border-radius-lg);
-
   @include media-breakpoint-up(sm) {
     padding: ($jumbotron-padding * 2) $jumbotron-padding;
   }
+}
+
+.card {
+  
 }
 
 // Custom.scss
