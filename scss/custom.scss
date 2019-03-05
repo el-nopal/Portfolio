@@ -3,29 +3,45 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-.nopal {
-  background-color: green;
-  color: white;
-  border-radius: 5px;
+// colors
+$beige: #fdf2d2;
+$light-green: #62b16f;
+$dark-green: #3f6c45;
+
+.btn {
+  background-color: $dark-green;
+  color: $beige;
+  border: $dark-green;
 }
+
+.btn:hover {
+  background-color: $light-green;
+  color: $beige;
+  border: $light-green;
+}
+
 
 .jumbotron {
   // mods
-  background-image: url("/images/tech-bg.svg");
-  color: white;
+  background-image: url('/images/tech.svg');
+  color: $beige;
   height: 500px;
   // og
   padding: $jumbotron-padding ($jumbotron-padding / 2);
   margin-bottom: $jumbotron-padding;
-  background-color: $jumbotron-bg;
+  background-color: $light-green;
   @include border-radius($border-radius-lg);
   @include media-breakpoint-up(sm) {
     padding: ($jumbotron-padding * 2) $jumbotron-padding;
   }
 }
 
-.card {
-  // no change
+.card-img-top {
+  background-color: $light-green;
+}
+
+svg {
+  fill: $beige;
 }
 
 .profile {
@@ -37,79 +53,23 @@
 
 #about {
   text-align: center;
+  height: 700px;
+  background-color: $dark-green
 }
 
 #contact {
-  background-color: lightblue;
+  background-color: $light-green;
+  color: $beige;
   text-align: center;
-  height: 400px;
+  height: 700px;
+}
+
+footer .navbar-nav {
+  text-align: center;
 }
 
 // back to top button
-#button {
-  display: inline-block;
-  background-color: #FF9800;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 4px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color .3s,
-    opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
-}
-#button::after {
-  content: "up";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: #fff;
-}
-#button:hover {
-  cursor: pointer;
-  background-color: #333;
-}
-#button:active {
-  background-color: #555;
-}
-#button.show {
-  opacity: 1;
-  visibility: visible;
-}
 
-/* Styles for the content section */
-
-.content {
-  width: 77%;
-  margin: 50px auto;
-  font-family: 'Merriweather', serif;
-  font-size: 17px;
-  color: #6c767a;
-  line-height: 1.9;
-}
-@media (min-width: 500px) {
-  .content {
-    width: 43%;
-  }
-  #button {
-    margin: 30px;
-  }
-}
-.content h1 {
-  margin-bottom: -10px;
-  color: #03a9f4;
-  line-height: 1.5;
-}
-.content h3 {
-  font-style: italic;
-  color: #96a2a7;
-}
 
 // Custom.scss
 // Option B: Include parts of Bootstrap

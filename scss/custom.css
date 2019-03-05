@@ -7590,22 +7590,33 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
-.nopal {
-  background-color: green;
-  color: white;
-  border-radius: 5px; }
+.btn {
+  background-color: #3f6c45;
+  color: #fdf2d2;
+  border: #3f6c45; }
+
+.btn:hover {
+  background-color: #62b16f;
+  color: #fdf2d2;
+  border: #62b16f; }
 
 .jumbotron {
-  background-image: url("/images/tech-bg.svg");
-  color: white;
+  background-image: url("/images/tech.svg");
+  color: #fdf2d2;
   height: 500px;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: #62b16f;
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
       padding: 4rem 2rem; } }
+
+.card-img-top {
+  background-color: #62b16f; }
+
+svg {
+  fill: #fdf2d2; }
 
 .profile {
   border-radius: 50%;
@@ -7614,70 +7625,17 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 50px auto; }
 
 #about {
-  text-align: center; }
+  text-align: center;
+  height: 700px;
+  background-color: #3f6c45; }
 
 #contact {
-  background-color: lightblue;
+  background-color: #62b16f;
+  color: #fdf2d2;
   text-align: center;
-  height: 400px; }
+  height: 700px; }
 
-#button {
-  display: inline-block;
-  background-color: #FF9800;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 4px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color .3s, opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000; }
-
-#button::after {
-  content: "up";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: #fff; }
-
-#button:hover {
-  cursor: pointer;
-  background-color: #333; }
-
-#button:active {
-  background-color: #555; }
-
-#button.show {
-  opacity: 1;
-  visibility: visible; }
-
-/* Styles for the content section */
-.content {
-  width: 77%;
-  margin: 50px auto;
-  font-family: 'Merriweather', serif;
-  font-size: 17px;
-  color: #6c767a;
-  line-height: 1.9; }
-
-@media (min-width: 500px) {
-  .content {
-    width: 43%; }
-
-  #button {
-    margin: 30px; } }
-.content h1 {
-  margin-bottom: -10px;
-  color: #03a9f4;
-  line-height: 1.5; }
-
-.content h3 {
-  font-style: italic;
-  color: #96a2a7; }
+footer .navbar-nav {
+  text-align: center; }
 
 /*# sourceMappingURL=custom.css.map */
