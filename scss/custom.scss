@@ -37,6 +37,11 @@ $dark-green: #3f6c45;
   }
 }
 
+// portfolio
+#portfolio {
+
+}
+
 .card-img-top {
   background-color: $light-green;
 }
@@ -52,6 +57,24 @@ svg {
   margin: 50px auto;
 }
 
+// skills
+#skills {
+  background-color: $light-green;
+}
+
+.programming {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skill {
+  margin: 25px;
+}
+
+// About
 #about {
   text-align: center;
   height: 700px;
@@ -63,7 +86,8 @@ svg {
   background-color: $light-green;
   color: $beige;
   text-align: center;
-  height: 700px;
+  height: 300px;
+  padding: 50px;
 }
 
 footer .navbar-nav {

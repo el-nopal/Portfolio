@@ -7623,6 +7623,19 @@ svg {
   height: 250px;
   margin: 50px auto; }
 
+#skills {
+  background-color: #62b16f; }
+
+.programming {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.skill {
+  margin: 25px; }
+
 #about {
   text-align: center;
   height: 700px;
@@ -7633,7 +7646,8 @@ svg {
   background-color: #62b16f;
   color: #fdf2d2;
   text-align: center;
-  height: 700px; }
+  height: 300px;
+  padding: 50px; }
 
 footer .navbar-nav {
   text-align: center; }
