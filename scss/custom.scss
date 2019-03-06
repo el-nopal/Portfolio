@@ -8,6 +8,7 @@ $beige: #fdf2d2;
 $light-green: #62b16f;
 $dark-green: #3f6c45;
 
+
 .btn {
   background-color: $dark-green;
   color: $beige;
@@ -23,9 +24,9 @@ $dark-green: #3f6c45;
 
 .jumbotron {
   // mods
-  background-image: url('/images/tech.svg');
+  // background-image: url('/images/tech.svg');
   color: $beige;
-  height: 500px;
+  height: 400px;
   // og
   padding: $jumbotron-padding ($jumbotron-padding / 2);
   margin-bottom: $jumbotron-padding;
@@ -54,7 +55,8 @@ svg {
 #about {
   text-align: center;
   height: 700px;
-  background-color: $dark-green
+  background-color: $dark-green;
+  color: $beige;
 }
 
 #contact {
