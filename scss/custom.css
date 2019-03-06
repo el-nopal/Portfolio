@@ -7590,6 +7590,9 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+body {
+  font-family: 'Ubuntu', sans-serif; }
+
 .btn {
   background-color: #3f6c45;
   color: #fdf2d2;
@@ -7606,7 +7609,8 @@ background-color: rgba(248, 247, 216, 0.7);
 
 */
 .jumbotron {
-  background-color: #62b16f;
+  background-image: url("/images/profile.jpg");
+  background-color: transparent;
   color: #fdf2d2;
   height: 400px;
   padding: 2rem 1rem;

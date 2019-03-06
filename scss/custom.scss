@@ -8,6 +8,9 @@ $beige: #fdf2d2;
 $light-green: #62b16f;
 $dark-green: #3f6c45;
 
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
 
 .btn {
   background-color: $dark-green;
@@ -29,8 +32,8 @@ background-color: rgba(248, 247, 216, 0.7);
 
 .jumbotron {
   // mods
-  // background-image: url('/images/tech.svg');
-  background-color: $light-green;
+  background-image: url('/images/profile.jpg');
+  background-color: transparent;
   color: $beige;
   height: 400px;
   // og
