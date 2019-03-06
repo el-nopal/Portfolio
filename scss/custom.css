@@ -7600,12 +7600,17 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fdf2d2;
   border: #62b16f; }
 
+/*
+background: url('../img/bg/diagonalnoise.png');
+background-color: rgba(248, 247, 216, 0.7);
+
+*/
 .jumbotron {
+  background-color: #62b16f;
   color: #fdf2d2;
   height: 400px;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #62b16f;
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
@@ -7651,5 +7656,37 @@ svg {
 
 footer .navbar-nav {
   text-align: center; }
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 50px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: grey;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */ }
+
+#myBtn:hover {
+  background-color: lightgrey;
+  /* Add a dark-grey background on hover */ }
 
 /*# sourceMappingURL=custom.css.map */

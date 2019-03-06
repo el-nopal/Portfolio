@@ -21,16 +21,22 @@ $dark-green: #3f6c45;
   border: $light-green;
 }
 
+/*
+background: url('../img/bg/diagonalnoise.png');
+background-color: rgba(248, 247, 216, 0.7);
+
+*/
 
 .jumbotron {
   // mods
   // background-image: url('/images/tech.svg');
+  background-color: $light-green;
   color: $beige;
   height: 400px;
   // og
   padding: $jumbotron-padding ($jumbotron-padding / 2);
   margin-bottom: $jumbotron-padding;
-  background-color: $light-green;
+
   @include border-radius($border-radius-lg);
   @include media-breakpoint-up(sm) {
     padding: ($jumbotron-padding * 2) $jumbotron-padding;
@@ -95,7 +101,25 @@ footer .navbar-nav {
 }
 
 // back to top button
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: grey; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
 
+#myBtn:hover {
+  background-color: lightgrey; /* Add a dark-grey background on hover */
+}
 
 // Custom.scss
 // Option B: Include parts of Bootstrap
