@@ -7609,10 +7609,12 @@ background-color: rgba(248, 247, 216, 0.7);
 
 */
 .jumbotron {
-  background-image: url("/images/profile.jpg");
+  background-image: url("/images/dev-coffee.jpg");
   background-color: transparent;
-  color: #62b16f;
-  height: 400px;
+  color: white;
+  height: 600px;
+  width: 1280px;
+  margin: 0 auto;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   border-radius: 0.3rem; }
@@ -7623,13 +7625,8 @@ background-color: rgba(248, 247, 216, 0.7);
 .card-img-top {
   background-color: #62b16f; }
 
-svg {
-  fill: #fdf2d2; }
-
 .profile {
   border-radius: 50%;
-  width: 250px;
-  height: 250px;
   margin: 50px auto; }
 
 #skills {
