@@ -7620,7 +7620,7 @@ background-color: rgba(248, 247, 216, 0.7);
 .jumbotron {
   background-image: url("/images/dev-coffee.jpg");
   background-color: transparent;
-  color: blue;
+  color: white;
   height: 600px;
   width: 1280px;
   margin: 0 auto;
@@ -7630,6 +7630,9 @@ background-color: rgba(248, 247, 216, 0.7);
   @media (min-width: 576px) {
     .jumbotron {
       padding: 4rem 2rem; } }
+
+.row {
+  margin: 0 auto; }
 
 .card-img-top {
   background-color: #62b16f; }
