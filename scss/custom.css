@@ -7594,7 +7594,8 @@ body {
   font-family: 'Ubuntu', sans-serif; }
 
 main {
-  max-width: 1280px; }
+  max-width: 1280px;
+  margin: 0 auto; }
 
 hr {
   width: 80%;
