@@ -1,6 +1,5 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
-
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // colors
@@ -16,11 +15,12 @@ $dark-blue: #45a29e;
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    // margin: 0 auto;
 }
 
 main {
   max-width: 1280px;
-  // margin: 0 auto;
+  margin: 0 auto;
 }
 
 hr {
@@ -32,27 +32,21 @@ hr {
 
 .btn {
   background-color: $dark-blue;
-  color: $light-grey;
+  color: $light-blue;
   border: $dark-blue;
 }
 
 .btn:hover {
   background-color: $light-blue;
-  color: $light-grey;
+  color: $black;
   border: $dark-blue;
 }
-
-/*
-background: url('../img/bg/diagonalnoise.png');
-background-color: rgba(248, 247, 216, 0.7);
-
-*/
 
 .jumbotron {
   // mods
   background-image: url('/images/dev-coffee.jpg');
   background-color: transparent;
-  color: $black;
+  color: white;
   height: 600px;
   max-width: 1280px;
   // margin: 0 auto;
@@ -60,24 +54,42 @@ background-color: rgba(248, 247, 216, 0.7);
   // og
   padding: $jumbotron-padding ($jumbotron-padding / 2);
   margin-bottom: $jumbotron-padding;
-
-
   @include media-breakpoint-up(sm) {
     padding: ($jumbotron-padding * 2) $jumbotron-padding;
   }
 }
 
+.getInTouch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contacts {
+  margin: 20px;
+}
+
 // portfolio
-#portfolio {
+.portfolio-title {
   text-align: center;
   margin: 1rem auto;
 }
 
-.card-img-top {
-  background-color: $light-blue;
+.card {
+
 }
 
+.card-img-top {
+  background-color: $light-blue;
 
+}
+
+.row {
+  margin: 0 20px;
+}
 
 // skills
 #skills {
@@ -129,9 +141,6 @@ background-color: rgba(248, 247, 216, 0.7);
   padding: 20px;
 }
 
-footer .navbar-nav {
-  text-align: center;
-}
 
 // back to top button
 #myBtn {
