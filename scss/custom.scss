@@ -4,9 +4,12 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // colors
-$beige: #fdf2d2;
-$light-green: #62b16f;
-$dark-green: #3f6c45;
+$black: #0b0c10;
+$dark-grey: #1f2833;
+$light-grey: #c5c6c7;
+$light-blue: #66fcf1;
+$dark-blue: #45a29e;
+
 
 body {
     font-family: 'Ubuntu', sans-serif;
@@ -25,15 +28,15 @@ hr {
 }
 
 .btn {
-  background-color: $dark-green;
-  color: $beige;
-  border: $dark-green;
+  background-color: $dark-blue;
+  color: $light-grey;
+  border: $dark-blue;
 }
 
 .btn:hover {
-  background-color: $light-green;
-  color: $beige;
-  border: $light-green;
+  background-color: $light-blue;
+  color: $light-grey;
+  border: $dark-blue;
 }
 
 /*
@@ -48,7 +51,7 @@ background-color: rgba(248, 247, 216, 0.7);
   background-color: transparent;
   color: white;
   height: 600px;
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
   border-radius: 0;
   // og
@@ -67,14 +70,14 @@ background-color: rgba(248, 247, 216, 0.7);
 }
 
 .card-img-top {
-  background-color: $light-green;
+  background-color: $light-blue;
 }
 
 
 
 // skills
 #skills {
-  background-color: $light-green;
+  background-color: $light-blue;
 }
 
 .programming {
@@ -93,8 +96,8 @@ background-color: rgba(248, 247, 216, 0.7);
 #about {
   text-align: center;
   height: 700px;
-  background-color: $dark-green;
-  color: $beige;
+  background-color: $dark-blue;
+  color: $light-grey;
 }
 
 .profile {
@@ -102,10 +105,10 @@ background-color: rgba(248, 247, 216, 0.7);
   margin: 50px auto;
 }
 
-// contact 
+// contact
 #contact {
-  background-color: $light-green;
-  color: $beige;
+  background-color: $light-blue;
+  color: $light-grey;
   text-align: center;
   height: 300px;
   padding: 50px;
