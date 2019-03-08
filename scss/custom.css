@@ -7637,10 +7637,6 @@ background-color: rgba(248, 247, 216, 0.7);
 .card-img-top {
   background-color: #62b16f; }
 
-.profile {
-  border-radius: 50%;
-  margin: 50px auto; }
-
 #skills {
   background-color: #62b16f; }
 
@@ -7659,6 +7655,10 @@ background-color: rgba(248, 247, 216, 0.7);
   height: 700px;
   background-color: #3f6c45;
   color: #fdf2d2; }
+
+.profile {
+  border-radius: 50%;
+  margin: 50px auto; }
 
 #contact {
   background-color: #62b16f;
