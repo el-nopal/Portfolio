@@ -7648,6 +7648,9 @@ nav {
   text-align: center;
   margin: 1rem auto; }
 
+.card {
+  max-width: 300px; }
+
 .card-img-top {
   background-color: #66fcf1; }
 
