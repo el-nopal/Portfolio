@@ -7594,13 +7594,13 @@ body {
   font-family: 'Ubuntu', sans-serif; }
 
 main {
-  max-width: 1280px;
-  margin: 0 auto; }
+  max-width: 1280px; }
 
 hr {
   width: 80%;
   text-align: center;
-  border: 1px solid grey; }
+  border: 1px solid #1f2833;
+  margin: 2rem auto; }
 
 .btn {
   background-color: #45a29e;
@@ -7620,10 +7620,9 @@ background-color: rgba(248, 247, 216, 0.7);
 .jumbotron {
   background-image: url("/images/dev-coffee.jpg");
   background-color: transparent;
-  color: white;
+  color: #0b0c10;
   height: 600px;
   max-width: 1280px;
-  margin: 0 auto;
   border-radius: 0;
   padding: 2rem 1rem;
   margin-bottom: 2rem; }
@@ -7631,13 +7630,15 @@ background-color: rgba(248, 247, 216, 0.7);
     .jumbotron {
       padding: 4rem 2rem; } }
 
-.row {
+#portfolio {
+  text-align: center;
   margin: 0 auto; }
 
 .card-img-top {
   background-color: #66fcf1; }
 
 #skills {
+  text-align: center;
   background-color: #66fcf1; }
 
 .programming {
