@@ -10,6 +10,9 @@ $light-grey: #c5c6c7;
 $light-blue: #66fcf1;
 $dark-blue: #45a29e;
 
+* {
+  box-sizing: border-box;
+}
 
 body {
     font-family: 'Ubuntu', sans-serif;
@@ -67,7 +70,7 @@ background-color: rgba(248, 247, 216, 0.7);
 // portfolio
 #portfolio {
   text-align: center;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 .card-img-top {
@@ -80,6 +83,12 @@ background-color: rgba(248, 247, 216, 0.7);
 #skills {
   text-align: center;
   background-color: $light-blue;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.skills-title {
+  margin: 2rem auto;
 }
 
 .programming {
@@ -97,9 +106,11 @@ background-color: rgba(248, 247, 216, 0.7);
 // About
 #about {
   text-align: center;
-  height: 700px;
+  height: 800px;
   background-color: $dark-blue;
-  color: $light-grey;
+  color: $black;
+  padding: 50px 20px;
+  margin: 0 auto;
 }
 
 .profile {
@@ -109,11 +120,13 @@ background-color: rgba(248, 247, 216, 0.7);
 
 // contact
 #contact {
+  display: inline-block;
   background-color: $light-blue;
-  color: $light-grey;
+  color: $black;
   text-align: center;
-  height: 300px;
-  padding: 50px;
+  width: 100%;
+  height: 400px;
+  padding: 20px;
 }
 
 footer .navbar-nav {
