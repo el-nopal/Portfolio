@@ -7625,7 +7625,7 @@ nav {
   color: white;
   height: 600px;
   max-width: 1280px;
-  margin-bottom: 0;
+  margin: 0 auto;
   border-radius: 0;
   padding: 2rem 1rem; }
   @media (min-width: 576px) {
