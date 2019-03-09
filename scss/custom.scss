@@ -53,15 +53,33 @@ nav {
   color: white;
   height: 600px;
   max-width: 1280px;
-  margin: 0 auto;
+  margin-bottom: 0;
   border-radius: 0;
   // og
   padding: $jumbotron-padding ($jumbotron-padding / 2);
-  margin-bottom: $jumbotron-padding;
+  // margin-bottom: $jumbotron-padding;
   @include media-breakpoint-up(sm) {
     padding: ($jumbotron-padding * 2) $jumbotron-padding;
   }
 }
+
+// .jumbotron {
+//   padding: $jumbotron-padding ($jumbotron-padding / 2);
+//   margin-bottom: $jumbotron-padding;
+//   color: $jumbotron-color;
+//   background-color: $jumbotron-bg;
+//   @include border-radius($border-radius-lg);
+//
+//   @include media-breakpoint-up(sm) {
+//     padding: ($jumbotron-padding * 2) $jumbotron-padding;
+//   }
+// }
+//
+// .jumbotron-fluid {
+//   padding-right: 0;
+//   padding-left: 0;
+//   @include border-radius(0);
+// }
 
 .getInTouch {
   display: flex;
@@ -77,6 +95,12 @@ nav {
 }
 
 // portfolio
+#portfolio {
+    background-color: $dark-blue;
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
 .portfolio-title {
   text-align: center;
   margin: 1rem auto;
@@ -100,7 +124,7 @@ nav {
   text-align: center;
   background-color: $light-blue;
   padding: 1rem 0;
-  margin-top: 2rem;
+  margin: 0;
 }
 
 .skills-title {
