@@ -7590,6 +7590,12 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+/*===============
+  COLORS
+  ===============*/
+/*===============
+  BASE ELEMENTS
+  ===============*/
 * {
   box-sizing: border-box; }
 
@@ -7604,7 +7610,49 @@ hr {
   width: 80%;
   text-align: center;
   border: 1px solid #1f2833;
-  margin: 2rem auto; }
+  margin: 24px auto; }
+
+/*===============
+  INTRO SECTION
+  ===============*/
+.jumbotron {
+  background-image: url("../images/dev-coffee.jpg");
+  background-repeat: no-repeat;
+  background-color: #66fcf1;
+  color: white;
+  height: 600px;
+  max-width: 1280px;
+  margin: 0 auto;
+  border-radius: 0;
+  padding: 2rem 1rem; }
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding: 4rem 2rem; } }
+
+.connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0; }
+
+/*===============
+  PORTFOLIO
+  ===============*/
+#portfolio {
+  background-color: #45a29e;
+  padding: 2rem 0;
+  margin: 1rem auto;
+  border-radius: 10px; }
+
+.portfolio-title {
+  text-align: center;
+  margin: 1rem auto; }
+
+.card {
+  margin: 10px;
+  max-width: 400px; }
 
 .btn {
   background-color: #45a29e;
@@ -7616,51 +7664,15 @@ hr {
   color: #0b0c10;
   border: #45a29e; }
 
-.jumbotron {
-  background-image: url("../images/dev-coffee.jpg");
-  background-color: rgba(209, 210, 208, 0.8);
-  color: white;
-  height: 600px;
-  max-width: 1280px;
-  margin: 0 auto;
-  border-radius: 0;
-  padding: 2rem 1rem; }
-  @media (min-width: 576px) {
-    .jumbotron {
-      padding: 4rem 2rem; } }
-
-.getInTouch {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  list-style-type: none;
-  padding-left: 0; }
-
-.contacts {
-  margin: 20px; }
-
-#portfolio {
-  background-color: #45a29e;
-  padding: 2rem 0;
-  margin: 0 auto; }
-
-.portfolio-title {
-  text-align: center;
-  margin: 1rem auto; }
-
-.card {
-  margin: 10px;
-  max-width: 400px; }
-
+/*===============
+  SKILLS
+  ===============*/
 #skills {
   text-align: center;
-  background-color: #66fcf1;
-  padding: 1rem 0;
-  margin: 0; }
-
-.skills-title {
-  margin: 2rem auto; }
+  background-color: #45a29e;
+  padding: 2rem 0;
+  margin: 1rem auto;
+  border-radius: 10px; }
 
 .programming {
   margin: 20px;
@@ -7672,26 +7684,37 @@ hr {
 .skill {
   margin: 25px; }
 
+/*===============
+  ABOUT
+  ===============*/
 #about {
   text-align: center;
-  height: 800px;
   background-color: #45a29e;
-  color: #0b0c10;
-  padding: 50px 20px;
-  margin: 0 auto; }
+  padding: 2rem 0;
+  margin: 1rem auto;
+  border-radius: 10px; }
 
 .profile {
   border-radius: 50%;
-  margin: 50px auto; }
+  margin: 24px auto; }
 
+/*===============
+  CONTACT
+  ===============*/
 #contact {
   display: inline-block;
   background-color: #66fcf1;
   color: #0b0c10;
   text-align: center;
+  margin: 10px auto 0 auto;
   width: 100%;
-  height: 400px;
-  padding: 20px; }
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px 10px 0 0; }
+
+.contact p {
+  font-size: 20px;
+  margin: 0; }
 
 #myBtn {
   display: none;

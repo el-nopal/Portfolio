@@ -2,13 +2,18 @@
 // Option A: Include all of Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// colors
+/*===============
+  COLORS
+  ===============*/
 $black: #0b0c10;
 $dark-grey: #1f2833;
 $light-grey: #c5c6c7;
 $light-blue: #66fcf1;
 $dark-blue: #45a29e;
 
+/*===============
+  BASE ELEMENTS
+  ===============*/
 * {
   box-sizing: border-box;
 }
@@ -26,7 +31,56 @@ hr {
   width: 80%;
   text-align: center;
   border: 1px solid $dark-grey;
-  margin: 2rem auto;
+  margin: 24px auto;
+}
+
+/*===============
+  INTRO SECTION
+  ===============*/
+.jumbotron {
+  // mods
+  background-image: url('../images/dev-coffee.jpg');
+  background-repeat: no-repeat;
+  background-color: $light-blue;
+  color: white;
+  height: 600px;
+  max-width: 1280px;
+  margin: 0 auto;
+  border-radius: 0;
+  // og
+  padding: $jumbotron-padding ($jumbotron-padding / 2);
+  @include media-breakpoint-up(sm) {
+    padding: ($jumbotron-padding * 2) $jumbotron-padding;
+  }
+}
+
+.connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/*===============
+  PORTFOLIO
+  ===============*/
+#portfolio {
+    background-color: $dark-blue;
+    padding: 2rem 0;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
+
+.portfolio-title {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.card {
+  margin: 10px;
+  max-width: 400px;
 }
 
 .btn {
@@ -41,64 +95,16 @@ hr {
   border: $dark-blue;
 }
 
-// intro page
-.jumbotron {
-  // mods
-  background-image: url('../images/dev-coffee.jpg');
-  background-color: rgba(209, 210, 208, 0.8);
-  color: white;
-  height: 600px;
-  max-width: 1280px;
-  margin: 0 auto;
-  border-radius: 0;
-  // og
-  padding: $jumbotron-padding ($jumbotron-padding / 2);
-  @include media-breakpoint-up(sm) {
-    padding: ($jumbotron-padding * 2) $jumbotron-padding;
-  }
-}
 
-.getInTouch {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.contacts {
-  margin: 20px;
-}
-
-// portfolio
-#portfolio {
-    background-color: $dark-blue;
-    padding: 2rem 0;
-    margin: 0 auto;
-}
-
-.portfolio-title {
-  text-align: center;
-  margin: 1rem auto;
-}
-
-.card {
-  margin: 10px;
-  max-width: 400px;
-}
-
-
-// skills
+/*===============
+  SKILLS
+  ===============*/
 #skills {
   text-align: center;
-  background-color: $light-blue;
-  padding: 1rem 0;
-  margin: 0;
-}
-
-.skills-title {
-  margin: 2rem auto;
+  background-color: $dark-blue;
+  padding: 2rem 0;
+  margin: 1rem auto;
+  border-radius: 10px;
 }
 
 .programming {
@@ -113,30 +119,40 @@ hr {
   margin: 25px;
 }
 
-// About
+/*===============
+  ABOUT
+  ===============*/
 #about {
   text-align: center;
-  height: 800px;
   background-color: $dark-blue;
-  color: $black;
-  padding: 50px 20px;
-  margin: 0 auto;
+  padding: 2rem 0;
+  margin: 1rem auto;
+  border-radius: 10px;
 }
 
 .profile {
   border-radius: 50%;
-  margin: 50px auto;
+  margin: 24px auto;
 }
 
-// contact
+/*===============
+  CONTACT
+  ===============*/
 #contact {
   display: inline-block;
   background-color: $light-blue;
   color: $black;
   text-align: center;
+  margin: 10px auto 0 auto;
   width: 100%;
-  height: 400px;
+  height: 100%;
   padding: 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.contact p {
+  font-size: 20px;
+  margin: 0;
 }
 
 
