@@ -7649,6 +7649,10 @@ hr {
   text-align: center;
   margin: 1rem auto; }
 
+.card {
+  margin: 10px;
+  max-width: 400px; }
+
 #skills {
   text-align: center;
   background-color: #66fcf1;
