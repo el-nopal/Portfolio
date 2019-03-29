@@ -73,7 +73,6 @@ hr {
   padding: 2rem 0;
   margin: 1rem;
   border-radius: 10px;
-  width: 92%;
 }
 
 .card {
@@ -193,13 +192,14 @@ hr {
   MEDIA QUERIES
   =====================*/
 @include media-breakpoint-up(md) {
-  #portfolio {
-    margin: 1rem auto;
-    width: 96%;
-  }
+
   #skills,
   #about {
     height: 700px;
+  }
+
+  .skil {
+    margin: 1rem;
   }
 }
 
@@ -208,6 +208,11 @@ hr {
   //   margin: 1rem auto;
   //   width: 100%;
   // }
+
+  #skills,
+  #about {
+    height: 600px;
+  }
 }
 
 // Custom.scss
