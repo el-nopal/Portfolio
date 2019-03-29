@@ -7602,7 +7602,8 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   font-family: 'Ubuntu', sans-serif; }
 
-main {
+main,
+footer {
   max-width: 1280px;
   margin: 0 auto; }
 
@@ -7641,8 +7642,8 @@ hr {
   PORTFOLIO
   ===============*/
 #portfolio {
-  text-align: center;
   background-color: #45a29e;
+  text-align: center;
   padding: 2rem 0;
   margin: 1rem;
   border-radius: 10px;
@@ -7666,38 +7667,36 @@ hr {
   SKILLS
   ===============*/
 #skills {
-  text-align: center;
   background-color: #45a29e;
-  padding: 2rem 0;
+  text-align: center;
+  padding: 2rem 1rem;
   margin: 1rem auto;
   border-radius: 10px; }
 
 .programming {
-  margin: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap; }
 
 .skill {
-  margin: 25px; }
+  margin: 1rem; }
 
 /*===============
   ABOUT
   ===============*/
 #about {
-  text-align: center;
   background-color: #45a29e;
-  padding: 2rem 0;
+  text-align: center;
+  padding: 2rem 1rem;
   margin: 1rem auto;
   border-radius: 10px; }
 
 .profile {
-  border-radius: 50%;
-  margin: 1rem auto; }
+  border-radius: 50%; }
 
 .about p {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 1rem; }
 
 .sm-connect {
@@ -7715,8 +7714,8 @@ hr {
   CONTACT
   ===============*/
 #contact {
-  text-align: center;
   background-color: #45a29e;
+  text-align: center;
   padding: 2rem 0;
   margin: 1rem 1rem 0;
   border-radius: 10px 10px 0 0; }
@@ -7726,7 +7725,7 @@ hr {
   margin-bottom: 1.5rem; }
 
 /*===============
-  PARK
+  BACK TO TOP BUTTON
   ===============*/
 #myBtn {
   display: none;
