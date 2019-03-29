@@ -7690,7 +7690,8 @@ hr {
   height: 640px; }
 
 .profile {
-  border-radius: 50%; }
+  border-radius: 50%;
+  width: 280px; }
 
 .about p {
   font-size: 1.25rem;
