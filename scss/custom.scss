@@ -39,20 +39,14 @@ hr {
   INTRO SECTION
   ===============*/
 .jumbotron {
-  // mods
   background-image: url('../images/dev-coffee.jpg');
   background-repeat: no-repeat;
   background-color: $light-blue;
   color: white;
+  margin: 0 auto;
+  border-radius: 0 0 10px 10px;
   height: 600px;
   max-width: 1280px;
-  margin: 0 auto;
-  border-radius: 0;
-  // og
-  padding: $jumbotron-padding ($jumbotron-padding / 2);
-  @include media-breakpoint-up(sm) {
-    padding: ($jumbotron-padding * 2) $jumbotron-padding;
-  }
 }
 
 .connect {
@@ -76,9 +70,8 @@ hr {
 }
 
 .card {
-  margin: 10px;
+  margin: 1rem;
   padding: 0;
-  max-width: 400px;
 }
 
 .btn {
@@ -192,26 +185,24 @@ hr {
   MEDIA QUERIES
   =====================*/
 @include media-breakpoint-up(md) {
-
   #skills,
   #about {
     height: 700px;
   }
 
-  .skil {
+  .skill {
     margin: 1rem;
   }
 }
 
 @include media-breakpoint-up(xl) {
-  // #portfolio {
-  //   margin: 1rem auto;
-  //   width: 100%;
-  // }
-
   #skills,
   #about {
     height: 600px;
+  }
+  
+  .skill {
+    margin: 1.4rem;
   }
 }
 
