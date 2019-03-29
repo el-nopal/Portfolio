@@ -78,6 +78,7 @@ hr {
 
 .card {
   margin: 10px;
+  padding: 0;
   max-width: 400px;
 }
 
@@ -101,6 +102,7 @@ hr {
   padding: 2rem 1rem;
   margin: 1rem auto;
   border-radius: 10px;
+  height: 640px;
 }
 
 .programming {
@@ -111,7 +113,7 @@ hr {
 }
 
 .skill {
-  margin: 1rem;
+  margin: 0.5rem 1rem;
 }
 
 /*===============
@@ -123,6 +125,7 @@ hr {
   padding: 2rem 1rem;
   margin: 1rem auto;
   border-radius: 10px;
+  height: 640px;
 }
 
 .profile {
@@ -184,6 +187,27 @@ hr {
 
 #myBtn:hover {
   background-color: lightgrey; /* Add a dark-grey background on hover */
+}
+
+/*=====================
+  MEDIA QUERIES
+  =====================*/
+@include media-breakpoint-up(md) {
+  #portfolio {
+    margin: 1rem auto;
+    width: 96%;
+  }
+  #skills,
+  #about {
+    height: 700px;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  // #portfolio {
+  //   margin: 1rem auto;
+  //   width: 100%;
+  // }
 }
 
 // Custom.scss

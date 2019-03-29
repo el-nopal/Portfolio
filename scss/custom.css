@@ -7651,6 +7651,7 @@ hr {
 
 .card {
   margin: 10px;
+  padding: 0;
   max-width: 400px; }
 
 .btn {
@@ -7671,7 +7672,8 @@ hr {
   text-align: center;
   padding: 2rem 1rem;
   margin: 1rem auto;
-  border-radius: 10px; }
+  border-radius: 10px;
+  height: 640px; }
 
 .programming {
   display: flex;
@@ -7680,7 +7682,7 @@ hr {
   flex-wrap: wrap; }
 
 .skill {
-  margin: 1rem; }
+  margin: 0.5rem 1rem; }
 
 /*===============
   ABOUT
@@ -7690,7 +7692,8 @@ hr {
   text-align: center;
   padding: 2rem 1rem;
   margin: 1rem auto;
-  border-radius: 10px; }
+  border-radius: 10px;
+  height: 640px; }
 
 .profile {
   border-radius: 50%; }
@@ -7758,5 +7761,17 @@ hr {
 #myBtn:hover {
   background-color: lightgrey;
   /* Add a dark-grey background on hover */ }
+
+/*=====================
+  MEDIA QUERIES
+  =====================*/
+@media (min-width: 768px) {
+  #portfolio {
+    margin: 1rem auto;
+    width: 96%; }
+
+  #skills,
+  #about {
+    height: 700px; } }
 
 /*# sourceMappingURL=custom.css.map */
