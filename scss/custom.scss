@@ -10,6 +10,7 @@ $lavenderGrey: #c5c3c6;
 $cgBlue: #1985a1;
 $deepSpace: #4c5c69;
 $outerSpace: #46494c;
+$green: #20bf55;
 /*===============
   BASE ELEMENTS
   ===============*/
@@ -77,7 +78,7 @@ svg {
 .portfolio-title {
   color: $gainsboro;
 }
-// 
+//
 // .card-body {
 //   background-color: $gainsboro;
 //   color: $outerSpace;
@@ -99,7 +100,7 @@ svg {
 }
 
 .btn:hover {
-  background-color: $cgBlue;
+  background-color: $green;
   color: $outerSpace;
   border: $cgBlue;
 }
@@ -218,6 +219,11 @@ svg {
 }
 
 @include media-breakpoint-up(xl) {
+  // .jumbotron {
+  //   text-align: center;
+  //   color: $outerSpace;
+  // }
+
   #skills,
   #about {
     height: 600px;
