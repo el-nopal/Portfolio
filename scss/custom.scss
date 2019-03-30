@@ -5,12 +5,11 @@
 /*===============
   COLORS
   ===============*/
-$black: #0b0c10;
-$dark-grey: #1f2833;
-$light-grey: #c5c6c7;
-$light-blue: #66fcf1;
-$dark-blue: #45a29e;
-
+$gainsboro: #dcdcdd;
+$lavenderGrey: #c5c3c6;
+$cgBlue: #1985a1;
+$deepSpace: #4c5c69;
+$outerSpace: #46494c;
 /*===============
   BASE ELEMENTS
   ===============*/
@@ -20,6 +19,7 @@ $dark-blue: #45a29e;
 
 body {
   font-family: 'Ubuntu', sans-serif;
+  background-color: $lavenderGrey;
 }
 
 main,
@@ -31,8 +31,12 @@ footer {
 hr {
   width: 80%;
   text-align: center;
-  border: 1px solid $dark-grey;
+  border: 1px solid $gainsboro;
   margin: 24px auto;
+}
+
+svg {
+  fill: $gainsboro;
 }
 
 /*===============
@@ -41,8 +45,8 @@ hr {
 .jumbotron {
   background-image: url('../images/dev-coffee.jpg');
   background-repeat: no-repeat;
-  background-color: $light-blue;
-  color: white;
+  background-color: $cgBlue;
+  color: $gainsboro;
   margin: 0 auto;
   border-radius: 0 0 10px 10px;
   height: 600px;
@@ -62,34 +66,42 @@ hr {
   PORTFOLIO
   ===============*/
 #portfolio {
-  background-color: $dark-blue;
+  background-color: $cgBlue;
+  color: $outerSpace;
   text-align: center;
   padding: 2rem 0;
   margin: 1rem;
   border-radius: 10px;
 }
 
+.portfolio-title {
+  color: $gainsboro;
+}
+
 .card {
+  background-color: $gainsboro;
+  color: $outerSpace;
   margin: 1rem;
   padding: 0;
 }
 
 .btn {
-  background-color: $dark-blue;
-  color: white;
-  border: $dark-blue;
+  background-color: $deepSpace;
+  color: $gainsboro;
+  border: $deepSpace;
 }
 
 .btn:hover {
-  background-color: $light-blue;
-  color: $black;
-  border: $dark-blue;
+  background-color: $cgBlue;
+  color: $outerSpace;
+  border: $cgBlue;
 }
 /*===============
   SKILLS
   ===============*/
 #skills {
-  background-color: $dark-blue;
+  background-color: $cgBlue;
+  color: $gainsboro;
   text-align: center;
   padding: 2rem 1rem;
   margin: 1rem auto;
@@ -112,7 +124,8 @@ hr {
   ABOUT
   ===============*/
 #about {
-  background-color: $dark-blue;
+  background-color: $cgBlue;
+  color: $gainsboro;
   text-align: center;
   padding: 2rem 1rem;
   margin: 1rem auto;
@@ -147,7 +160,8 @@ hr {
   CONTACT
   ===============*/
 #contact {
-  background-color: $dark-blue;
+  background-color: $cgBlue;
+  color: $gainsboro;
   text-align: center;
   padding: 2rem 0;
   margin: 1rem 1rem 0;
@@ -171,7 +185,7 @@ hr {
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: grey; /* Set a background color */
-  color: white; /* Text color */
+  color: $gainsboro; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */

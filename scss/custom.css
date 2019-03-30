@@ -7600,7 +7600,8 @@ a.text-dark:hover, a.text-dark:focus {
   box-sizing: border-box; }
 
 body {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #c5c3c6; }
 
 main,
 footer {
@@ -7610,8 +7611,11 @@ footer {
 hr {
   width: 80%;
   text-align: center;
-  border: 1px solid #1f2833;
+  border: 1px solid #dcdcdd;
   margin: 24px auto; }
+
+svg {
+  fill: #dcdcdd; }
 
 /*===============
   INTRO SECTION
@@ -7619,8 +7623,8 @@ hr {
 .jumbotron {
   background-image: url("../images/dev-coffee.jpg");
   background-repeat: no-repeat;
-  background-color: #66fcf1;
-  color: white;
+  background-color: #1985a1;
+  color: #dcdcdd;
   margin: 0 auto;
   border-radius: 0 0 10px 10px;
   height: 600px;
@@ -7638,31 +7642,38 @@ hr {
   PORTFOLIO
   ===============*/
 #portfolio {
-  background-color: #45a29e;
+  background-color: #1985a1;
+  color: #46494c;
   text-align: center;
   padding: 2rem 0;
   margin: 1rem;
   border-radius: 10px; }
 
+.portfolio-title {
+  color: #dcdcdd; }
+
 .card {
+  background-color: #dcdcdd;
+  color: #46494c;
   margin: 1rem;
   padding: 0; }
 
 .btn {
-  background-color: #45a29e;
-  color: white;
-  border: #45a29e; }
+  background-color: #4c5c69;
+  color: #dcdcdd;
+  border: #4c5c69; }
 
 .btn:hover {
-  background-color: #66fcf1;
-  color: #0b0c10;
-  border: #45a29e; }
+  background-color: #1985a1;
+  color: #46494c;
+  border: #1985a1; }
 
 /*===============
   SKILLS
   ===============*/
 #skills {
-  background-color: #45a29e;
+  background-color: #1985a1;
+  color: #dcdcdd;
   text-align: center;
   padding: 2rem 1rem;
   margin: 1rem auto;
@@ -7682,7 +7693,8 @@ hr {
   ABOUT
   ===============*/
 #about {
-  background-color: #45a29e;
+  background-color: #1985a1;
+  color: #dcdcdd;
   text-align: center;
   padding: 2rem 1rem;
   margin: 1rem auto;
@@ -7712,7 +7724,8 @@ hr {
   CONTACT
   ===============*/
 #contact {
-  background-color: #45a29e;
+  background-color: #1985a1;
+  color: #dcdcdd;
   text-align: center;
   padding: 2rem 0;
   margin: 1rem 1rem 0;
@@ -7742,7 +7755,7 @@ hr {
   /* Remove outline */
   background-color: grey;
   /* Set a background color */
-  color: white;
+  color: #dcdcdd;
   /* Text color */
   cursor: pointer;
   /* Add a mouse pointer on hover */
