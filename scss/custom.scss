@@ -5,12 +5,15 @@
 /*===============
   COLORS
   ===============*/
-$gainsboro: #dcdcdd;
-$lavenderGrey: #c5c3c6;
-$cgBlue: #1985a1;
-$deepSpace: #4c5c69;
-$outerSpace: #46494c;
-$green: #20bf55;
+$whitish: #dcdcdd; //whitish
+$lavenderGrey: #c5c3c6; //light grey
+$blue: #1985a1; //blue
+$deepSpace: #4c5c69; //dark-grey
+$outerSpace: #46494c; //light black
+// $green: #20bf55; //bright green
+
+// 2nd colors
+$white: #fbfbff;
 /*===============
   BASE ELEMENTS
   ===============*/
@@ -20,7 +23,7 @@ $green: #20bf55;
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background-color: $lavenderGrey;
+  background-color: $whitish;
 }
 
 main,
@@ -32,12 +35,12 @@ footer {
 hr {
   width: 80%;
   text-align: center;
-  border: 1px solid $gainsboro;
+  border: 1px solid $white;
   margin: 24px auto;
 }
 
 svg {
-  fill: $gainsboro;
+  fill: $whitish;
 }
 
 /*===============
@@ -46,8 +49,8 @@ svg {
 .jumbotron {
   background-image: url('../images/dev-coffee.jpg');
   background-repeat: no-repeat;
-  background-color: $cgBlue;
-  color: $gainsboro;
+  background-color: $blue;
+  color: $whitish;
   margin: 0 auto;
   border-radius: 0 0 10px 10px;
   height: 600px;
@@ -67,7 +70,7 @@ svg {
   PORTFOLIO
   ===============*/
 #portfolio {
-  background-color: $cgBlue;
+  background-color: $blue;
   color: $outerSpace;
   text-align: center;
   padding: 2rem 0;
@@ -76,40 +79,36 @@ svg {
 }
 
 .portfolio-title {
-  color: $gainsboro;
+  color: $white;
 }
-//
-// .card-body {
-//   background-color: $gainsboro;
-//   color: $outerSpace;
-//   margin: 1rem;
-//   padding: 0;
-// }
 
 .card {
-  background-color: $gainsboro;
-  color: $outerSpace;
   margin: 1rem;
   padding: 0;
 }
 
+.card-body {
+  background-color: $whitish;
+  color: $outerSpace;
+}
+
 .btn {
   background-color: $deepSpace;
-  color: $gainsboro;
+  color: $white;
   border: $deepSpace;
 }
 
 .btn:hover {
-  background-color: $green;
+  background-color: $blue;
   color: $outerSpace;
-  border: $cgBlue;
+  border: $blue;
 }
 /*===============
   SKILLS
   ===============*/
 #skills {
-  background-color: $cgBlue;
-  color: $gainsboro;
+  background-color: $blue;
+  color: $white;
   text-align: center;
   padding: 2rem 1rem;
   margin: 1rem auto;
@@ -132,8 +131,8 @@ svg {
   ABOUT
   ===============*/
 #about {
-  background-color: $cgBlue;
-  color: $gainsboro;
+  background-color: $blue;
+  color: $white;
   text-align: center;
   padding: 2rem 1rem;
   margin: 1rem auto;
@@ -168,8 +167,8 @@ svg {
   CONTACT
   ===============*/
 #contact {
-  background-color: $cgBlue;
-  color: $gainsboro;
+  background-color: $blue;
+  color: $white;
   text-align: center;
   padding: 2rem 0;
   margin: 1rem 1rem 0;
@@ -193,7 +192,7 @@ svg {
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: grey; /* Set a background color */
-  color: $gainsboro; /* Text color */
+  color: $white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */

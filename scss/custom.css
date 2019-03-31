@@ -7601,7 +7601,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background-color: #c5c3c6; }
+  background-color: #dcdcdd; }
 
 main,
 footer {
@@ -7611,7 +7611,7 @@ footer {
 hr {
   width: 80%;
   text-align: center;
-  border: 1px solid #dcdcdd;
+  border: 1px solid #fbfbff;
   margin: 24px auto; }
 
 svg {
@@ -7650,21 +7650,23 @@ svg {
   border-radius: 10px; }
 
 .portfolio-title {
-  color: #dcdcdd; }
+  color: #fbfbff; }
 
 .card {
-  background-color: #dcdcdd;
-  color: #46494c;
   margin: 1rem;
   padding: 0; }
 
+.card-body {
+  background-color: #dcdcdd;
+  color: #46494c; }
+
 .btn {
   background-color: #4c5c69;
-  color: #dcdcdd;
+  color: #fbfbff;
   border: #4c5c69; }
 
 .btn:hover {
-  background-color: #20bf55;
+  background-color: #1985a1;
   color: #46494c;
   border: #1985a1; }
 
@@ -7673,7 +7675,7 @@ svg {
   ===============*/
 #skills {
   background-color: #1985a1;
-  color: #dcdcdd;
+  color: #fbfbff;
   text-align: center;
   padding: 2rem 1rem;
   margin: 1rem auto;
@@ -7694,7 +7696,7 @@ svg {
   ===============*/
 #about {
   background-color: #1985a1;
-  color: #dcdcdd;
+  color: #fbfbff;
   text-align: center;
   padding: 2rem 1rem;
   margin: 1rem auto;
@@ -7725,7 +7727,7 @@ svg {
   ===============*/
 #contact {
   background-color: #1985a1;
-  color: #dcdcdd;
+  color: #fbfbff;
   text-align: center;
   padding: 2rem 0;
   margin: 1rem 1rem 0;
@@ -7755,7 +7757,7 @@ svg {
   /* Remove outline */
   background-color: grey;
   /* Set a background color */
-  color: #dcdcdd;
+  color: #fbfbff;
   /* Text color */
   cursor: pointer;
   /* Add a mouse pointer on hover */
