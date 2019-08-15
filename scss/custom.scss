@@ -17,10 +17,6 @@ $white: #fbfbff;
 /*===============
   BASE ELEMENTS
   ===============*/
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Ubuntu', sans-serif;
   background-color: $whitish;
@@ -49,22 +45,31 @@ svg {
 .jumbotron {
   background-image: url('../images/dev-coffee.jpg');
   background-repeat: no-repeat;
-  background-color: $blue;
-  color: $whitish;
+  // background-color: $blue;
+  // color: $whitish;
   margin: 0 auto;
   border-radius: 0 0 10px 10px;
   height: 600px;
   max-width: 1280px;
 }
 
-.connect {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  list-style-type: none;
-  padding-left: 0;
-}
+// .jumbotron {
+//   padding: $jumbotron-padding ($jumbotron-padding / 2);
+//   margin-bottom: $jumbotron-padding;
+//   color: $jumbotron-color;
+//   background-color: $jumbotron-bg;
+//   @include border-radius($border-radius-lg);
+//
+//   @include media-breakpoint-up(sm) {
+//     padding: ($jumbotron-padding * 2) $jumbotron-padding;
+//   }
+// }
+//
+// .jumbotron-fluid {
+//   padding-right: 0;
+//   padding-left: 0;
+//   @include border-radius(0);
+// }
 
 /*===============
   PORTFOLIO
