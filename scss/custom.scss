@@ -19,7 +19,7 @@ $white: #fbfbff;
   ===============*/
 body {
   font-family: 'Ubuntu', sans-serif;
-  background-color: $whitish;
+  // background-color: $whitish;
 }
 
 main,
@@ -75,8 +75,6 @@ svg {
   PORTFOLIO
   ===============*/
 #portfolio {
-  background-color: $blue;
-  color: $outerSpace;
   text-align: center;
   padding: 2rem 0;
   margin: 1rem;
@@ -112,8 +110,6 @@ svg {
   SKILLS
   ===============*/
 #skills {
-  background-color: $blue;
-  color: $white;
   text-align: center;
   padding: 2rem 1rem;
   margin: 1rem auto;
@@ -136,8 +132,6 @@ svg {
   ABOUT
   ===============*/
 #about {
-  background-color: $blue;
-  color: $white;
   text-align: center;
   padding: 2rem 1rem;
   margin: 1rem auto;
@@ -172,8 +166,6 @@ svg {
   CONTACT
   ===============*/
 #contact {
-  background-color: $blue;
-  color: $white;
   text-align: center;
   padding: 2rem 0;
   margin: 1rem 1rem 0;

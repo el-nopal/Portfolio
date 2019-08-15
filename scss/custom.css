@@ -7597,8 +7597,7 @@ a.text-dark:hover, a.text-dark:focus {
   BASE ELEMENTS
   ===============*/
 body {
-  font-family: 'Ubuntu', sans-serif;
-  background-color: #dcdcdd; }
+  font-family: 'Ubuntu', sans-serif; }
 
 main,
 footer {
@@ -7629,8 +7628,6 @@ svg {
   PORTFOLIO
   ===============*/
 #portfolio {
-  background-color: #1985a1;
-  color: #46494c;
   text-align: center;
   padding: 2rem 0;
   margin: 1rem;
@@ -7661,8 +7658,6 @@ svg {
   SKILLS
   ===============*/
 #skills {
-  background-color: #1985a1;
-  color: #fbfbff;
   text-align: center;
   padding: 2rem 1rem;
   margin: 1rem auto;
@@ -7682,8 +7677,6 @@ svg {
   ABOUT
   ===============*/
 #about {
-  background-color: #1985a1;
-  color: #fbfbff;
   text-align: center;
   padding: 2rem 1rem;
   margin: 1rem auto;
@@ -7713,8 +7706,6 @@ svg {
   CONTACT
   ===============*/
 #contact {
-  background-color: #1985a1;
-  color: #fbfbff;
   text-align: center;
   padding: 2rem 0;
   margin: 1rem 1rem 0;
