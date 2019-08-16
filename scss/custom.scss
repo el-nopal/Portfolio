@@ -31,12 +31,8 @@ footer {
 hr {
   width: 80%;
   text-align: center;
-  border: 1px solid $white;
+  border: 1px solid #f8f9fa;
   margin: 24px auto;
-}
-
-svg {
-  fill: $whitish;
 }
 
 /*===============
@@ -84,22 +80,6 @@ svg {
   padding: 0;
 }
 
-// .card-body {
-//   background-color: $whitish;
-//   color: $outerSpace;
-// }
-
-.btn {
-  background-color: $deepSpace;
-  color: $white;
-  border: $deepSpace;
-}
-
-.btn:hover {
-  background-color: $blue;
-  color: $outerSpace;
-  border: $blue;
-}
 /*===============
   SKILLS
   ===============*/
