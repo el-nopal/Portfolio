@@ -17,9 +17,9 @@ $white: #fbfbff;
 /*===============
   BASE ELEMENTS
   ===============*/
+
 body {
   font-family: 'Ubuntu', sans-serif;
-  // background-color: $whitish;
 }
 
 main,
@@ -45,8 +45,6 @@ svg {
 .jumbotron {
   background-image: url('../images/dev-coffee.jpg');
   background-repeat: no-repeat;
-  // background-color: $blue;
-  // color: $whitish;
   margin: 0 auto;
   border-radius: 0 0 10px 10px;
   height: 600px;
@@ -81,19 +79,15 @@ svg {
   border-radius: 10px;
 }
 
-.portfolio-title {
-  color: $white;
-}
-
 .card {
   margin: 1rem;
   padding: 0;
 }
 
-.card-body {
-  background-color: $whitish;
-  color: $outerSpace;
-}
+// .card-body {
+//   background-color: $whitish;
+//   color: $outerSpace;
+// }
 
 .btn {
   background-color: $deepSpace;

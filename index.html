@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="scss/custom.css">
     <title>Michael Valenzuela</title>
   </head>
-  <body class="bg-light">
+  <body class="bg-dark">
     <header>
       <!-- nav -->
-      <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Michael Valenzuela</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -24,8 +24,24 @@
           </div>
         </div>
       </nav>
-      <!-- jumbotron -->
-      <div class="jumbotron">
+<!-- jumbotron -->
+
+      <!-- <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div> -->
+
+      <!-- <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Fluid jumbotron</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div> -->
+
+      <div class="jumbotron bg-secondary">
         <div class="jumbo-container text-light">
           <h1>Hello World!</h1>
           <h1 class="display-4">Michael Valenzuela</h1>
@@ -36,11 +52,11 @@
     </header>
 <!-- main begins -->
     <main>
-      <div class="portfolio bg-info text-light" id="portfolio">
+      <div class="portfolio bg-secondary text-light" id="portfolio">
         <h1 class="portfolio-title">Portfolio</h1>
         <hr>
         <div class="row justify-content-center">
-          <div class="card col-sm col-md-5 col-xl-3" style="width: 18rem;">
+          <div class="card bg-light text-dark col-sm col-md-5 col-xl-3" style="width: 18rem;">
             <img src="images/projects/quote.png" class="card-img-top" alt="random quote generator">
             <div class="card-body">
               <h5 class="card-title"> <b>Random Quote Generator</b> </h5>
@@ -50,7 +66,7 @@
             </div>
           </div>
 
-          <div class="card col-sm col-md-5 col-xl-3" style="width: 18rem;">
+          <div class="card bg-light text-dark col-sm col-md-5 col-xl-3" style="width: 18rem;">
             <img src="images/projects/employee.png" class="card-img-top" alt="Employee Directory">
             <div class="card-body">
               <h5 class="card-title"> <b>Employee Directory</b> </h5>
@@ -60,7 +76,7 @@
             </div>
           </div>
 
-          <div class="card col-sm col-md-5 col-xl-3" style="width: 18rem;">
+          <div class="card bg-light text-dark col-sm col-md-5 col-xl-3" style="width: 18rem;">
             <img src="images/projects/webapp.png" class="card-img-top" alt="WebApp Dashboard">
             <div class="card-body">
               <h5 class="card-title"> <b>WebApp Dashboard</b> </h5>
@@ -70,7 +86,7 @@
             </div>
           </div>
 
-          <div class="card col-sm col-md-5 col-xl-3" style="width: 18rem;">
+          <div class="card bg-light text-dark col-sm col-md-5 col-xl-3" style="width: 18rem;">
             <img src="images/projects/game.png" class="card-img-top" alt="Game Show App">
             <div class="card-body">
               <h5 class="card-title"> <b>Game Show App</b> </h5>
@@ -80,7 +96,7 @@
             </div>
           </div>
 
-          <div class="card col-sm col-md-5 col-xl-3" style="width: 18rem;">
+          <div class="card bg-light text-dark col-sm col-md-5 col-xl-3" style="width: 18rem;">
             <img src="images/projects/gallery.png" class="card-img-top" alt="Photo Gallery">
             <div class="card-body">
               <h5 class="card-title"> <b>Interactive Photogallery</b> </h5>
@@ -90,7 +106,7 @@
             </div>
           </div>
 
-          <div class="card col-sm col-md-5 col-xl-3" style="width: 18rem;">
+          <div class="card bg-light text-dark col-sm col-md-5 col-xl-3" style="width: 18rem;">
             <img src="images/projects/webstyle.png" class="card-img-top" alt="Webstyle Guide">
             <div class="card-body">
               <h5 class="card-title"> <b>Webstyle Guide</b> </h5>
@@ -106,7 +122,7 @@
       <div class="container-fluid skillsAbout">
         <div class="row">
           <div class="col">
-            <div class="skills bg-info  text-light" id="skills">
+            <div class="skills bg-secondary  text-light" id="skills">
               <h1>Skills</h1>
               <hr>
               <h5>Programming Languages & Tools</h5>
@@ -166,7 +182,7 @@
           </div>
 
           <div class="col">
-            <div class="about bg-info text-light" id="about">
+            <div class="about bg-secondary text-light" id="about">
               <h1>About</h1>
               <hr>
               <img src="images/avatar.svg" alt="my-profile" class="profile">
@@ -179,7 +195,7 @@
     </main>
 <!-- footer/ contact section  -->
     <footer>
-      <div class="contact bg-info text-light" id="contact">
+      <div class="contact bg-secondary text-light" id="contact">
         <h3>Contact</h3>
         <hr>
         <p> mike.valenz@protonmail.com</p>

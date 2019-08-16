@@ -7633,16 +7633,9 @@ svg {
   margin: 1rem;
   border-radius: 10px; }
 
-.portfolio-title {
-  color: #fbfbff; }
-
 .card {
   margin: 1rem;
   padding: 0; }
-
-.card-body {
-  background-color: #dcdcdd;
-  color: #46494c; }
 
 .btn {
   background-color: #4c5c69;
