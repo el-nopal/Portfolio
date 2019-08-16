@@ -7664,7 +7664,7 @@ hr {
   height: 640px; }
 
 .profile {
-  border-radius: 50%;
+  border-radius: 10px;
   width: 250px; }
 
 .about p {
