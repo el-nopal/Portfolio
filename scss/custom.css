@@ -7614,7 +7614,7 @@ hr {
   INTRO SECTION
   ===============*/
 .jumbotron {
-  background-image: url("../images/dev-coffee.jpg");
+  background-image: url("../images/code1.jpg");
   background-repeat: no-repeat;
   margin: 0 auto;
   border-radius: 0 0 10px 10px;
@@ -7715,7 +7715,7 @@ hr {
   /* Remove outline */
   background-color: grey;
   /* Set a background color */
-  color: #fbfbff;
+  color: white;
   /* Text color */
   cursor: pointer;
   /* Add a mouse pointer on hover */
